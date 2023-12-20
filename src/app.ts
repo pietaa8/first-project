@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
-  const a = 10;
+  const a = 11;
 
   res.send(a);
 });
